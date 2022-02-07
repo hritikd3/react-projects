@@ -33,7 +33,7 @@
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --dark-shadow: 0 9px 45px rgb(65, 61, 68);
   --max-width: 1170px;
   --fixed-width: 450px;
   --clr-pink: #ba8af2;
@@ -145,7 +145,7 @@ main {
   margin: 5rem 0;
   max-width: var(--fixed-width);
   background: var(--clr-white);
-  border-radius: var(--radius);
+  border-radius: 19px;
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
 }
