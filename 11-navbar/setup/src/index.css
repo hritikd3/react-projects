@@ -162,11 +162,12 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 50px;
+ 
 }
 .links a {
   color: var(--clr-grey-3);
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -180,6 +181,7 @@ nav {
 }
 .social-icons {
   display: none;
+  font-size: 1.1rem;
 }
 .links-container {
   height: 0;

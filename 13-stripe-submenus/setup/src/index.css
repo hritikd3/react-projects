@@ -29,7 +29,7 @@ Variables
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-10: hsl(210, 17%, 98%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -160,8 +160,9 @@ Stripe Styles
 .btn {
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
-  border-radius: var(--radius);
+  border-radius: 17px;
   border-color: transparent;
+  font-weight: 550;
   color: white;
   background: var(--clr-black);
   cursor: pointer;
@@ -169,6 +170,7 @@ Stripe Styles
 }
 .btn:hover {
   background: var(--clr-grey-5);
+ 
 }
 .nav-links {
   display: none;
@@ -206,11 +208,12 @@ Stripe Styles
 .hero-info h1 {
   text-transform: none;
   max-width: 500px;
-  margin-bottom: 2rem;
+  margin-bottom:1rem;
 }
 .hero-info p {
   max-width: 35em;
   line-height: 1.8;
+  color: #373737
 }
 .hero-images {
   display: none;
@@ -236,6 +239,7 @@ Stripe Styles
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     height: 100%;
+    font-weight: 300;
     display: grid;
     align-items: center;
   }
@@ -276,6 +280,7 @@ Stripe Styles
   }
   .phone-img {
     width: 12rem;
+    padding: 0.1rem;
   }
 }
 
